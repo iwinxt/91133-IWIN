@@ -1,0 +1,43 @@
+h1{
+    /*Centralizar o título*/
+    text-align: center;
+
+    /*colocar em negrito*/
+    font-weight: bold;
+}
+
+form{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+label{
+    font-weight: bold;
+    
+}
+
+input{
+    width: 25%;
+    border-radius: 2px ;
+    background-color: aliceblue;
+}
+
+textarea{
+    width: 23%;
+    border-radius: 2px ;
+    background-color: aliceblue;
+}
+
+button{
+    width: 190px;
+    height: 30px;
+    border-radius: 2px ;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+button:hover{
+    color:rgb(0, 17, 255);
+    font-weight: bold;
+}
