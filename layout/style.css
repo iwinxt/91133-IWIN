@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction:column; 
+}
+
+.Titulo{
+    
+    background-color: green;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.conteudo-wrapper { 
+    display: flex; 
+    flex: 1; 
+}
+
+.Menu{
+    background-color:black;
+    color: White;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    height: 600px;
+    margin:10px;
+}
+ul{
+    text-align: left;
+    color: blue;
+}
+
+.Conteudo{
+    flex: 1;
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+h2{
+    margin:10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold ;
+}
+
+p{
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold ;      
+}
+
+.footer{
+    background-color: rgb(17, 16, 16);
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 80px;
+    
+}
