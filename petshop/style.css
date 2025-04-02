@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0;
+}
+
+.logo img{
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header{
+    background-color: rgb(255, 208, 0);
+    border: solid 4px orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    
+    width: 100%;
+}
+
+a{
+    color:black;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color:orange
+
+}
+
+.corpo{
+        background-image: url('logo.jpg'); 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 40vh;
+        width: 100%;
+        
+    
+}
+
+.corpo .row h1{
+    padding: 110px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24pt;
+    color: white; 
+}
+
+.corpo .row p{
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13pt;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 33%;
+    margin-right: 33%;
+    
+}
+
+.conteudo{
+    background-color:rgba(255, 166, 0, 0.164);
+    margin-top: 30px;
+    height: 200px;
+    padding: 25px;
+}
+
+.conteudo h2{
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26pt;
+}
+
+.conteudo p{
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17pt;
+}
+
+button{
+    background-color: orange; 
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 12pt;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    
+}
+
+footer{
+    background-color: rgb(255, 208, 0);
+    border: solid 4px orange;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
+
