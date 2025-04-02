@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0;
+    background-color: rgb(233, 231, 231);
+}
+
+.logo img{
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header{
+    background-color: rgb(255, 208, 0);
+    border: solid 4px orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    
+    width: 100%;
+}
+
+a{
+    color:black;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color:orange
+
+}
+
+.corpo{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        flex-direction: column; 
+        text-align: center; 
+        margin-top: 30px;
+        
+}
+
+.corpo h1{
+    color:orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26pt;
+    padding: 15 px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: center;
+    margin-left: 40%;
+    width: 300px;
+}
+
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+input {
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+
+
+button{
+    background-color: orange; 
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 12pt;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    
+}
+
+.zap{
+    margin-top: 10%;
+    
+}
+
+.box2 {
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center; 
+    
+}
+
+.whatsapp-web {
+    
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    gap: 10px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    color: white;
+    font-weight: bold;
+    background-color: green; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    width: fit-content; 
+}
+
+.whatsapp-web img {
+    width: 30px; 
+    height: auto;
+}
+
+footer{
+    background-color: rgb(255, 208, 0);
+    border: solid 4px orange;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
