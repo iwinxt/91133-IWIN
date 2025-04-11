@@ -1,22 +1,23 @@
-document.getElementById("forms").addEventListener("submit",function(event){
-    event.preventDefault(); //impede o envio do formulario
+document.getElementById("forms").addEventListener("submit", function(event) {
+    event.preventDefault(); 
 
-    const produto = document.getElementById("produto").value;
-    const preco = document.getElementById("preco").value;
-    const quantidade = document.getElementById("quantidade").value;
-    const total = document.getElementById("total").value;
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
 
-    //validação dos campos
-    if(quantidade <0 || preco <0 ){
-        alert("O Preco e Quantidade devem ser maiores que 0");
+    if (!username || !password) {
+        alert("Por favor, preencha todos os campos.");
         return;
     }
 
-    total = preco*quantidade;
-    
-    document.getElementById("total").value = total;
-    document.getElementById("total").value = total.toFixed(2);
+    const passwordLength = password.length;
+    if (passwordLength < 8) {
+        alert("Sua senha deve ter pelo menos 8 caracteres.");
+        return;
+        }
 
-    alert("Compra bem sucedida!"); //Pop-up de sucesso
+
+    localStorage.setItem("username", username);
+
+    window.location.href = "produtos.html";
 });
-    
+
