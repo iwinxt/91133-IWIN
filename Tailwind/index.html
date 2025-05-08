@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-600">
+  <header>
+    <div class="bg-gray-800 pt-5">
+      <div class="max-w-screen-xl mx-auto flex justify-between items-center px-4">
+        <div class="flex items-center space-x-2">
+          <img src="img5.webp" alt="Logo" class="w-19 h-19 object-cover rounded-full pb-2">
+          <span class="text-white text-xl font-bold">Tail Iwinzão</span>
+        </div>
+        <nav class="flex space-x-6 pb-5">
+          <a href="#home" class="text-lg font-bold rounded-lg px-3 py-2 text-stone-100 hover:bg-gray-300 hover:text-gray-900 transition duration-300 ease-in-out hover:scale-105">
+            Home
+          </a>
+          <a href="#team" class="text-lg font-bold rounded-lg px-3 py-2 text-stone-100 hover:bg-gray-300 hover:text-gray-900 transition duration-300 ease-in-out hover:scale-105">
+            Sobre Nós
+          </a>
+          <a href="#parceiros" class="text-lg font-bold rounded-lg px-3 py-2 text-stone-100 hover:bg-gray-300 hover:text-gray-900 transition duration-300 ease-in-out hover:scale-105">
+            Contatos
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="pt-7 px-5 flex justify-between items-start gap-8">
+      <div class="bg-[url('/img2.jpg')] bg-cover bg-center bg-no-repeat text-white p-4 rounded-lg max-w-screen-md brightness-90 flex-1">
+        <h2 class="font-serif font-bold text-2xl mb-2" id="home">Nossa História</h2>
+        <p class="font-serif font-semibold text-left break-words">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, neque ipsum. 
+          Amet blanditiis corporis sed voluptates quos vitae harum tempora soluta illum temporibus, rerum, laudantium nihil molestias magnam ipsam dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Eaque quod tempore mollitia facere tenetur, doloribus reiciendis sapiente dolorem voluptas vitae error non. Nemo voluptatem voluptas quos ducimus dicta quas nam.
+        </p>
+      </div>
+      <div class="flex-shrink-0">
+        <img src="img6.jpg" alt="Imagem lateral" class="w-80 h-80 rounded-lg shadow-lg">
+      </div>
+    </section>
+    <section class="pt-7 pl-5">
+      <h2 class="text-2xl font-bold mb-4" id="team">Nossa Equipe</h2>
+      <div class="flex space-x-6">
+        <figure class="w-60">
+          <img class="w-60 h-60 rounded-full object-cover shadow-lg hover:shadow-2xl transition" src="img1.webp" alt="Equipe 1" />
+          <figcaption class="text-sm text-black text-center mt-2 font-semibold">
+            Tom Mate e Marquinhos grandes idealizadores dessa pagina
+          </figcaption>
+        </figure>
+        <figure class="w-60">
+          <img class="w-60 h-60 rounded-full object-cover shadow-lg hover:shadow-2xl transition" src="img3.jpg" alt="Equipe 2" />
+          <figcaption class="text-sm text-black text-center mt-2 font-semibold">
+            Iwin e Murilo desenvolvedores dessa pagina
+          </figcaption>
+        </figure>
+        <figure class="w-60">
+          <img class="w-60 h-60 rounded-full object-cover shadow-lg hover:shadow-2xl transition" src="img4.jpg" alt="Equipe 2" />
+          <figcaption class="text-sm text-black text-center mt-2 font-semibold">
+            Menino Ney e Messi grandes influentes para a divulgação da pagina
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="pt-7 pl-5">
+      <h2 class="text-2xl font-bold mb-4 text-left" id="parceiros">Parceiros</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-[300px] border border-gray-300 text-left">
+          <thead class="bg-gray-400">
+            <tr>
+              <th class="px-4 py-2 border-b text-left">Nome</th>
+              <th class="px-4 py-2 border-b text-left">Empresa</th>
+              <th class="px-4 py-2 border-b text-left">Contato</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-slate-200 hover:bg-gray-300">
+              <td class="px-4 py-2 border-b">Ana Silva</td>
+              <td class="px-4 py-2 border-b">TechCorp</td>
+              <td class="px-4 py-2 border-b">ana@techcorp.com</td>
+            </tr>
+            <tr class="bg-slate-200 hover:bg-gray-300">
+              <td class="px-4 py-2 border-b">Carlos Mendes</td>
+              <td class="px-4 py-2 border-b">InovaDev</td>
+              <td class="px-4 py-2 border-b">carlos@inovadev.com</td>
+            </tr>
+            <tr class="bg-slate-200 hover:bg-gray-300">
+              <td class="px-4 py-2 border-b">Juliana Rocha</td>
+              <td class="px-4 py-2 border-b">FuturoSoft</td>
+              <td class="px-4 py-2 border-b">juliana@futurosoft.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="pt-10 px-5 max-w-screen-md mx-auto">
+      <h2 class="text-xl font-bold mb-6">FAQ - Perguntas Frequentes</h2>
+      <div class="space-y-4">
+        <details class="bg-gray-100 rounded-lg p-4 shadow">
+          <summary class="cursor-pointer font-semibold">Qual é o objetivo do site?</summary>
+          <p class="mt-2 text-black">Nosso objetivo é apresentar nossa equipe, contar nossa história e compartilhar nossos contatos.</p>
+        </details>
+        <details class="bg-gray-100 rounded-lg p-4 shadow">
+          <summary class="cursor-pointer font-semibold">Quem faz parte da equipe?</summary>
+          <p class="mt-2 text-black">Nossa equipe é composta por profissionais dedicados a criar soluções inovadoras. Tom Mate, Marquinhos, Iwin, Murilo, Menino Ney e Messi</p>
+        </details>
+        <details class="bg-gray-100 rounded-lg p-4 shadow">
+          <summary class="cursor-pointer font-semibold">Como posso entrar em contato?</summary>
+          <p class="mt-2 text-black">Você pode nos contatar pela seção "Contatos" no menu superior.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-gray-800 text-white mt-10">
+    <div class="max-w-screen-xl mx-auto px-4 py-8 md:flex md:items-center md:justify-between">
+      <div class="mb-4 md:mb-0">
+        <h3 class="text-xl font-semibold">© 2025 Segundo site de Iwinzinho</h3>
+        <p class="text-sm text-gray-300">Todos os direitos reservados.</p>
+      </div>
+      <div class="flex space-x-6">
+        <a href="#home" class="text-sm hover:text-sky-400 transition">Home</a>
+        <a href="#team" class="text-sm hover:text-sky-400 transition">Sobre Nós</a>
+        <a href="#parceiros" class="text-sm hover:text-sky-400 transition">Contatos</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
